@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int numberA = new Random().Next(1,10);
+Console.Write(numberA);
+int numberB = new Random().Next(1,10);
+Console.Write(numberB);
+int result = numberA + numberB;
+Console.Write(result);
